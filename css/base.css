@@ -50,7 +50,7 @@ ul {
     margin-left: 2.5rem;   
 }
 a{
-    color: #86615C;
+    color: #4E3822;
     text-decoration: none;
 }
 a:hover { 
@@ -69,5 +69,5 @@ footer{
     justify-items: center;
 }
 #currentdate {
-    color: #86615C;
+    color: #4E3822;
 }
