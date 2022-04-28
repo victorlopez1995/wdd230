@@ -5,7 +5,7 @@
 }
 body {
     font-size: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 header, main, footer {
@@ -32,12 +32,12 @@ header img {
 }
 
 h1{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-shadow: 2px 2px gray;
+    font-family: 'Charmonman', cursive;
+    text-shadow: 1px 1px #96031A;
 }
 
 h2{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Charmonman', cursive;
     margin-left: 0.5rem;
 }
 .content{
@@ -50,7 +50,7 @@ ul {
     margin-left: 2.5rem;   
 }
 a{
-    color: #4E3822;
+    color: #96031A;
     text-decoration: none;
 }
 a:hover { 
