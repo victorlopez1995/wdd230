@@ -14,19 +14,19 @@ header, main, footer {
 }
 
 header {
+    text-align: center;
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: 0.5rem;
     background-color: #D3C385;
-    display: grid;
-    grid-template-columns: 180px 1fr;
-    align-items: center;
-    justify-items: center;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 header img {
-    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: auto;
     padding: 0.8rem 1rem;
     border-radius: 20px;
 }
@@ -57,12 +57,16 @@ a:hover {
     color: #DEB058;
     text-decoration: underline;
   }    
+main p {
+    margin-left: 0.5rem;
+}
 footer{
+    text-align: center;
     margin: 1rem auto;
     border: 1px solid #bbb;
     padding: 0.5rem;
     background-color: #D3C385;
-    border-radius: 10px;
+    border-radius: 1px;
     display: grid;
     grid-template-rows: 1fr 1fr;
     align-items: center;
