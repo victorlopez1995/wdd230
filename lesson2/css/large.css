@@ -1,0 +1,20 @@
+@media only screen and (min-width: 64em ){
+    header {
+        margin: 24pt;
+    }
+    main {
+        max-width: fit-content;
+        margin: 24pt;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px,1fr)) ;
+        grid-gap: 24pt;
+    }
+    .principle {
+        margin: 0;
+        width: 100%;
+        flex: none;
+    }
+    footer {
+        margin: 24pt;
+    }
+}

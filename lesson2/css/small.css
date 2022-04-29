@@ -8,7 +8,7 @@ header {
     color: #E6E1C5;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
-    margin: 0.5rem;
+    margin: 16pt;
     padding: 0.5rem;
     border-radius: 5px;
 
@@ -18,14 +18,20 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 main {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(50px,1fr)) ;
-    grid-gap: 24pt;
+    margin: 16pt;
+    max-width: 64em;
+    display: block;
 }
 .principle {
+    
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 8pt;
     background-color: #E6E1C5;
     border: 1px solid black ;
-    border-radius: 5px;
+    border-radius: 5px; 
+    flex: 1 1 auto;
+    min-width: 250px;
     
 }
 h3{
@@ -35,11 +41,22 @@ h3{
     background-color: #0A0908;
     color: #E6E1C5;
 }
-h3, p, a, img {
+h3, p, img {
     width: 100%;
-    padding: 8pt;
+    padding: 10pt;
+}
+
+img {
+    max-width: 350px;
+    margin: 0 auto;
 }
 
 footer{
+    background-color: #49111C;
+    color: #E6E1C5;
     text-align: center;
+    margin: 16pt;
+    padding: 0.5rem;
+    border-radius: 5px;
 }
+
