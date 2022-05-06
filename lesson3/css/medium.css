@@ -1,0 +1,40 @@
+/***********************************************/
+/** Media Queries for larger views *************/
+/***********************************************/
+
+@media (min-width: 37.5em) {
+	nav {
+		flex-direction: row;
+	}
+	
+	nav a {
+		font-size: 1.1rem;
+	}
+    .index {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    .index img, div {
+        justify-self: center;
+    }
+    .index div {
+        margin-left: 24pt;
+    }
+    img {
+        width: 80%;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    .colors, .contrast {
+        display: flex;
+        margin: 16pt;
+    }
+    .colors p{
+        flex: 1 1 100%;
+        text-align: center;
+    }
+}
