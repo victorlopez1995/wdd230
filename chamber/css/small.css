@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+header, main, footer {
+	max-width: 960px;
+	margin: 0 auto;
+}
+header {
+	background-color: #1C211D;
+	display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    align-items: center;
+	justify-content: center;
+    text-align: center;
+}
+.name {
+    justify-self: start;
+}
+h1 {
+	font-size: 1.2rem;
+	font-family: 'Libre Baskerville', serif;
+	color: #D5ECD4;
+}
+header h2 {
+    font-size: 0.8rem;
+	border-top: 3px solid #D5ECD4 ;
+	color: #A1B0AB;
+}
+.social {
+    justify-self: end;
+    display: flex;
+    align-items: center;
+	justify-content: center;
+}
+.social img{
+    width: 25px;
+    margin: 0.1rem;
+}
+.logo {
+    max-width: 70px;
+    margin: 5pt 5pt;
+} 
+button {
+    justify-self: end;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-right: 20px; 
+    color: #555;
+}
+nav {
+    grid-column: 1/5;
+    margin: 15px 0;
+    color:white;
+    background-color: rgba(255,255,255, 0.2);
+    
+}
+nav ul{
+    background-color: #1C211D;
+}
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    font-size: .8rem;
+}
+nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+}
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+#hamburgerBtn span:nth-child(1) {display: block;}
+#hamburgerBtn span:nth-child(2) {display: none;}
+
+#hamburgerBtn.open span:nth-child(1) {display: none;}
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+footer{
+	background-color: #1C211D;
+	color: #D5ECD4;
+    text-align: center;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
