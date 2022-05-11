@@ -18,7 +18,7 @@ header {
     grid-gap: 0.5rem;
     align-items: center;
 	justify-content: center;
-    text-align: center;
+    text-align: start;
 }
 .name {
     justify-self: start;
@@ -46,6 +46,7 @@ header h2 {
 .logo {
     max-width: 70px;
     margin: 5pt 5pt;
+    margin-right: 0pt;
 } 
 button {
     justify-self: end;
