@@ -8,6 +8,7 @@
     <title>Moon's Road - Home page</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Source+Sans+Pro&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
@@ -22,12 +23,12 @@
             <h2>Chamber of Commerce</h2>
         </div>
         <div class="social">
-            <img src="images/facebook.png" alt="facebook logo">
-            <img src="images/linkedln.png" alt="linkedln logo">
+            <a href="https://es-la.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedln.png" alt="linkedln logo"></a>
         </div>
-        <button id="hamburgerBtn"><span>&#9776</span><span>X</span></button>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <span class="date" id="currentdate"></span>
         <nav>
-            <span id="currentdate">current date</span>
             <ul id="primaryNav">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Discover</a></li>
@@ -44,19 +45,37 @@
         <p>Event</p>
         <p>Weather</p>
         <p>News Release</p>
-        <div class="Spotlight">
+        <p>join</p>
+        <div class="spotlight">
             <p>Spotlight 1</p>
             <p>Spotlight 2</p>
+            <p class="lastspot">Spotlight 3</p>
         </div>
     </main>
     <footer>
-        <p >
-            &copy; <span id="currentyear"></span> .:|:. Victor M. Lopez .:|:. Colombia 
-        </p>
-        <p>
-            Last Updated: <span id="lastModific"></span>
-        </p>
-        <script src="js/date.js"></script>
+        <div class="title">
+            <img src="images/logo.png" alt="moonsroad logo">
+            <div>
+                <h1>Moon's Road-Chamber of Commerce</h1>
+                <p>Carrera 2 # 23-73</p>
+                <p>Chia-Cundinamarca</p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>info@moonsroad.org</p>
+            <p>+57 300-987-6543</p>
+            <p><i class="material-icons" style="color:red">place</i> Location map</p>
+        </div>
+        <div class="end">
+            <p>&copy; <span id="currentyear"></span> Moon's Road Chamber </p>
+            <p class="line">|</p>
+            <p><b>Victor López</b></p>
+            <p class="line">|</p>
+            <p>WDD 230 Project</p>
+            <p class="line">|</p>
+            <p>Last Updated: <span id="lastModific"></span></p>
+            <script src="js/date.js"></script>
+        </div>
     </footer>
 </body>
 </html>

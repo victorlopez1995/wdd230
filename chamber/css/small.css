@@ -9,7 +9,7 @@ body {
 }
 header, main, footer {
 	max-width: 960px;
-	margin: 0 auto;
+	margin: 6pt auto;
 }
 header {
 	background-color: #1C211D;
@@ -30,7 +30,7 @@ h1 {
 }
 header h2 {
     font-size: 0.8rem;
-	border-top: 3px solid #D5ECD4 ;
+	border-top: 1px solid #D5ECD4 ;
 	color: #A1B0AB;
 }
 .social {
@@ -56,13 +56,18 @@ button {
     margin-right: 20px; 
     color: #555;
 }
-nav {
+header .date{
     grid-column: 1/5;
-    margin: 15px 0;
+    margin: 15px 8px;
     color:white;
     background-color: rgba(255,255,255, 0.2);
-    
+    text-align: center; 
 }
+nav {
+    grid-column: 1/5;
+    text-align: center;
+}
+
 nav ul{
     background-color: #1C211D;
 }
@@ -70,15 +75,39 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: white;
+    color: #A1B0AB;
     border-top: 1px solid rgba(0,0,0,0.5);
-    font-size: .8rem;
+    font-size: 1rem;
 }
 nav ul li a:hover {
     background-color: rgba(0,0,0,0.3);
 }
 nav ul {display: none;}
 nav ul.open {display: block;}
+
+
+main p{
+    background-color: #E9ECEA;
+    margin: 0.4rem;
+    padding: 0.2rem;
+    height: 10rem;
+    border: 1px #A1B0AB solid;
+}
+main p:nth-of-type(5){
+    display: none;
+}
+.spotlight {
+    border: 1px #A1B0AB solid;
+    background-color: #E9ECEA;
+    margin: 0.4rem;
+    padding: 1rem;
+}
+.lastspot{
+    display: none;
+}
+.spotlight p {
+    margin: 0;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -92,4 +121,23 @@ footer{
     text-align: center;
     padding: 0.5rem;
     border-radius: 5px;
+    margin-bottom: 8pt;
+}
+.title{
+    margin-bottom: 1rem;
+}
+.title img{
+    width: 150px;
+}
+.contact, .contact p{
+    margin-bottom: 1rem;
+}
+.end{
+    border-top: 0.1rem rgba(255,255,255, 0.2) solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 0.8rem;
+}
+.line {
+    display: none;
 }
