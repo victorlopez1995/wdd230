@@ -17,7 +17,7 @@
     .social img{
         margin: 0.3rem;
     }
-    button {display: none}
+    header button {display: none}
     nav ul#primaryNav {
         display: flex;
         border-left: 1px solid rgba(0,0,0,0.3);

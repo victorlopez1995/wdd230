@@ -7,6 +7,15 @@ body {
 	font-size: 16px;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+#banner {
+	display: none;
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	background-color: #eee;
+	padding: 1rem;
+	text-align: center;
+	max-width: 750px;
+}
 header, main, footer {
 	max-width: 1050px;
 	margin: 6pt auto;
@@ -48,7 +57,7 @@ header h2 {
     margin: 5pt 5pt;
     margin-right: 0pt;
 } 
-button {
+header button {
     justify-self: end;
     background: transparent;
     border: none;

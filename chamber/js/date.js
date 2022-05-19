@@ -18,3 +18,16 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburgerBtn');
 x.onclick = toggleMenu;
+
+let d = new Date().getDay();
+
+const banner = document.getElementById("banner");
+if (d === 1 || d === 3) {
+	banner.style.display = "block";
+}
+
+const close1 = document.querySelector("#close");
+close1.style.color = "red" ;
+close1.addEventListener("click", () => {
+	banner.style.display = "none";
+});
