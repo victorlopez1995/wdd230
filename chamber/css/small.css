@@ -98,18 +98,22 @@ main .hero{
     padding: 0;
     position: relative;
 }
-
-main h2{
+main .hero h2{
     font-family: 'Libre Baskerville', serif;
     position: absolute;
     top: 10px;
-    left: 10px;
-
+    right: 20px;
+    color: #1C211D;
+    text-shadow: 2px 2px #A1B0AB;
+}
+main h2,h3 {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
 }
 main div{
-    background-color: #E9ECEA;
+    background-color: #D5ECD4;
     margin: 0.4rem;
-    padding: 0.2rem;
+    padding: 0.4rem;
     border: 1px #A1B0AB solid;
 }
 main .hero img{
@@ -118,12 +122,31 @@ main .hero img{
 }
 main .hero button{
     position: absolute;
-    top: 120px;
-	right: 50px;
+    bottom: 20px;
+	right: 30px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px ;
+    background-color: rgba(255,255,0, 0.5);
+    font-weight: bold;
 }
 main div h2{
     width: 100%;
     margin: 0px;
+}
+main div:nth-of-type(2) h2,h3{
+    margin: 8pt;
+}
+main div:nth-of-type(3) img{
+    float: left;
+    width: 150px;
+}
+main div:nth-of-type(3) p{
+    clear: left;
+}
+main div:nth-of-type(3) h3{
+    margin-top: 8vh;
+    font-size: 22px;
 }
 main div:nth-of-type(5){
     display: none;
@@ -135,12 +158,17 @@ main div:nth-of-type(5){
     padding: 1rem;
     height: auto;
 }
+.spotlight div:nth-of-type(1) img, .spotlight div:nth-of-type(2) img, .spotlight div:nth-of-type(1) p, .spotlight div:nth-of-type(2) p{
+    width: 100%;
+    text-align: center;
+} 
 .lastspot{
     display: none;
 }
 .spotlight div {
     margin: 0;
 }
+
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
@@ -164,6 +192,9 @@ footer{
 }
 .contact, .contact p{
     margin-bottom: 1rem;
+}
+.contact a{
+    color: #D5ECD4;
 }
 .end{
     border-top: 0.1rem rgba(255,255,255, 0.2) solid;
