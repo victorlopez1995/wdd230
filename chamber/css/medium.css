@@ -21,30 +21,30 @@
         grid-template-columns: 3fr 2fr;
         grid-template-rows: repeat(auto-fit, minmax(50px,1fr)) ;
     } 
-    main p,main div{
+    main div{
         grid-column: 1/3;
     }
-    main p:nth-of-type(4){
+    main div:nth-of-type(4){
         grid-row: 2/3;
     }
     main .spotlight{
         grid-row: 3/4;
         display: flex;
     }
-    main .spotlight p{
+    main .spotlight div{
         flex: 1 1 auto;
     }
     main .spotlight .lastspot{
         display: none;
     }
-    main p:nth-of-type(5){
+    main div:nth-of-type(5){
         display: block;
         grid-row: 4/5;
     }
-    main p:nth-of-type(2){
+    main div:nth-of-type(2){
         grid-column: 1/2;
     }
-    main p:nth-of-type(3){
+    main div:nth-of-type(3){
         grid-column: 2/3;
     }
     footer{

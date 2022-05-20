@@ -11,10 +11,10 @@ body {
 	display: none;
 	margin: 0 auto;
 	border: 1px solid #bbb;
-	background-color: #eee;
+	background-color: #FFE770;
 	padding: 1rem;
 	text-align: center;
-	max-width: 750px;
+	max-width: 1050px;
 }
 header, main, footer {
 	max-width: 1050px;
@@ -94,15 +94,38 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
+main .hero{
+    padding: 0;
+    position: relative;
+}
 
-main p{
+main h2{
+    font-family: 'Libre Baskerville', serif;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+}
+main div{
     background-color: #E9ECEA;
     margin: 0.4rem;
     padding: 0.2rem;
-    height: 10rem;
     border: 1px #A1B0AB solid;
 }
-main p:nth-of-type(5){
+main .hero img{
+    width: 100%;
+    margin: 0px;
+}
+main .hero button{
+    position: absolute;
+    top: 120px;
+	right: 50px;
+}
+main div h2{
+    width: 100%;
+    margin: 0px;
+}
+main div:nth-of-type(5){
     display: none;
 }
 .spotlight {
@@ -110,11 +133,12 @@ main p:nth-of-type(5){
     background-color: #E9ECEA;
     margin: 0.4rem;
     padding: 1rem;
+    height: auto;
 }
 .lastspot{
     display: none;
 }
-.spotlight p {
+.spotlight div {
     margin: 0;
 }
 

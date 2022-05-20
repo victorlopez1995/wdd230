@@ -22,8 +22,9 @@ x.onclick = toggleMenu;
 let d = new Date().getDay();
 
 const banner = document.getElementById("banner");
-if (d === 1 || d === 3) {
-	banner.style.display = "block";
+if (d === 1 || d === 2) {
+	banner.style.display = "flex";
+	banner.style.justifyContent = "space-between";
 }
 
 const close1 = document.querySelector("#close");
