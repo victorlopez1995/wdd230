@@ -16,6 +16,5 @@ button.addEventListener('click', function() {
             return myli.remove();
         })
     }
-
-})
 input.focus()
+})
