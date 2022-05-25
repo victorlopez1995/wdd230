@@ -43,7 +43,12 @@
     <main>
         <div class="hero">
             <h2>Welcome to Moon's Ride</h2>
-            <img src="images/hero.jpeg" alt="hero image">
+            <picture>
+                <source media="(max-width: 520px)" srcset="images/wdd230-small.jpg">
+                <source media="(max-width: 832px)" srcset="images/wdd230-medium.jpg">
+                <source media="(min-width: 833px)" srcset="images/wdd230-large.jpg">
+                <img src="images/wdd230-large.jpg" alt="hero image">
+            </picture>
             <button>Join the chamber</button>
         </div>
         <div>
