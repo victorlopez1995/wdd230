@@ -17,7 +17,7 @@
 <body>
     <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❌</button></div>
     <header>
-        <img class="logo" src="images/logo.png" alt="moonsroad logo">
+        <img class="logo" src="images/logo.webp" alt="moonsroad logo">
         <div class="name">
             <h1>Moon's Road</h1>
             <h2>Chamber of Commerce</h2>
@@ -61,10 +61,10 @@
         <div>
             <h2>Weather</h2>
             <img src="images/partly_cloudy.png" alt="weather state">
-            <h3>19°C<br>Partly cloudy</h3>
+            <h3><span id="temperature">9</span>°C<br>Partly cloudy</h3>
             <p>
-                Wind speed:  14 km/h<br>
-                Humidity:    66 %
+                Wind speed: <span id="wind">14</span> km/h<br>
+                Wind Chill: <span id="chill"></span>%
             </p>
         </div>
         <div>
@@ -108,7 +108,7 @@
     </main>
     <footer>
         <div class="title">
-            <img src="images/logo.png" alt="moonsroad logo">
+            <img src="images/logo.webp" alt="moonsroad logo">
             <div>
                 <h1>Moon's Road-Chamber of Commerce</h1>
                 <p>Carrera 2 # 23-73</p>
@@ -129,6 +129,7 @@
             <p class="line">|</p>
             <p>Last Updated: <span id="lastModific"></span></p>
             <script src="js/date.js"></script>
+            <script src="js/windchill.js"></script>
         </div>
     </footer>
 </body>
