@@ -26,20 +26,20 @@
         border: none;
         border-right: 1px solid rgba(0,0,0,0.3);
     }
-    main{
+    .index{
         display: grid;
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-rows: repeat(auto-fit, minmax(50px,1fr)) ;
     } 
-    main h3{
+    .index h3{
         font-size: 15px;
 
     }
-    main .hero h2{
+    .index .hero h2{
         top: 50px;
         font-size: 30px;
     }
-    main div{
+    .index div{
         margin: 0.4rem;
         padding: 0.2rem;
         border: 1px #A1B0AB solid;
@@ -47,30 +47,30 @@
     .lastspot, .spotlight div{
         display: block;
     }
-    main .hero img{
+    .index .hero img{
         height: 100%;
         margin: 0px;
         object-fit: cover;
         object-position: 20% 10%;
     }
-    main div:nth-of-type(2){
+    .index div:nth-of-type(2){
         grid-row: 1/2;
         grid-column: 1/2;
     }
-    main div:nth-of-type(2) h2{
+    .index div:nth-of-type(2) h2{
         margin-left: 0px;
     }
-    main div:nth-of-type(1){
+    .index div:nth-of-type(1){
         grid-row: 1/3;
         grid-column: 2/3;      
     }
-    main .spotlight{
+    .index .spotlight{
         grid-row: 1/4;
         grid-column: 3/4;
         display: flex;
         flex-direction: column;
     }
-    main .spotlight div{
+    .index .spotlight div{
         height: auto;
         text-align: center;
     }
@@ -79,27 +79,34 @@
         margin: auto;
         float:none;
     }
-    main .spotlight .lastspot{
+    .index .spotlight .lastspot{
         display: block;
         text-align: center;
 
     }
-    main .spotlight .lastspot h3{
+    .index .spotlight .lastspot h3{
         clear: both;
         font-size: 15px;
         margin-top: 1vh;
     }
-    main div:nth-of-type(3){
+    .index div:nth-of-type(3){
         grid-row: 2/3;
         grid-column: 1/2;
     }
-    main div:nth-of-type(4){
+    .index div:nth-of-type(4){
         grid-row: 3/4;
         grid-column: 2/3;
     }   
-        main div:nth-of-type(5){
+    .index div:nth-of-type(5){
         grid-row: 3/4;
         grid-column: 1/2;
+    }
+    .discover {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .discover div:nth-of-type(2) img{
+        width: 200px;
     }
     footer .title {
         margin-left: 40px;

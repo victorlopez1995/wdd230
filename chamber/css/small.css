@@ -94,11 +94,11 @@ nav ul li a:hover {
 nav ul {display: none;}
 nav ul.open {display: block;}
 
-main .hero{
+.index .hero{
     padding: 0;
     position: relative;
 }
-main .hero h2{
+.index .hero h2{
     font-family: 'Libre Baskerville', serif;
     position: absolute;
     top: 10px;
@@ -110,17 +110,17 @@ main h2,h3 {
     text-align: center;
     font-family: 'Libre Baskerville', serif;
 }
-main div{
+.index div{
     background-color: #D5ECD4;
     margin: 0.4rem;
     padding: 0.4rem;
     border: 1px #A1B0AB solid;
 }
-main .hero img{
+.index .hero img{
     width: 100%;
     margin: 0px;
 }
-main .hero button{
+.index .hero button{
     position: absolute;
     bottom: 20px;
 	right: 30px;
@@ -130,25 +130,25 @@ main .hero button{
     background-color: rgba(255,255,0, 0.5);
     font-weight: bold;
 }
-main div h2{
+.index div h2{
     width: 100%;
     margin: 0px;
 }
-main div:nth-of-type(2) h2,h3{
+.index div:nth-of-type(2) h2,h3{
     margin: 8pt;
 }
-main div:nth-of-type(3) img{
+.index div:nth-of-type(3) img{
     float: left;
     width: 150px;
 }
-main div:nth-of-type(3) p{
+.index div:nth-of-type(3) p{
     clear: left;
 }
-main div:nth-of-type(3) h3{
+.index div:nth-of-type(3) h3{
     margin-top: 8vh;
     font-size: 22px;
 }
-main div:nth-of-type(5){
+.index div:nth-of-type(5){
     display: none;
 }
 .spotlight {
@@ -169,6 +169,48 @@ main div:nth-of-type(5){
     margin: 0;
 }
 
+.discover div{
+    background-color: #D5ECD4;
+    margin: 0.4rem;
+    padding: 0.4rem;
+    border: 1px #A1B0AB solid;
+}
+
+.discover h2{
+    margin: 10px;
+}
+
+.discover picture ~ p {
+    margin: 25px;
+} 
+
+.discover picture{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+.discover div:nth-of-type(1) img{
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    margin: auto;
+    border: 2px #A1B0AB solid;
+}
+.discover div:nth-of-type(2) img{
+    float: left;
+    margin: 0 15px 15px 0;
+    border: 1px #A1B0AB solid;
+}
+.discover div:nth-of-type(2) h3{
+    clear: both;
+}
+.discover section{
+    margin: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}
