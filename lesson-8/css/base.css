@@ -10,29 +10,40 @@
     --caption: rgb(136, 231, 183);
 }
 
+body {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+}
+
+div {
+	box-shadow:  10px 10px 5px var(--shadow);
+	margin: 20px auto;
+	max-width: 500px;
+}
+
 table {
 	margin: 20px auto;
 	border: thin solid var(--border);
-	box-shadow: 0 0 30px var(--shadow);
 	border-collapse: collapse;
-}
-
-caption {
-    padding: 10px;
-	color: var(--back);
-	font-size: 2rem;
-    border: thin solid var(--border);
-    background-color: var(--caption);
-    box-shadow: 0 0 30px var(--shadow);
+	box-shadow:  10px 10px 5px var(--shadow);
 }
 
 th, td {
-	padding: 7px 15px;
+	padding: 7px 6px;
 	border: 1px solid var(--borderlight);
 }
 
-thead th {
+thead tr:nth-child(1) {
+    padding: 10px;
+	color: var(--back);
+	font-size: 1.5rem;
+    border: thin solid var(--border);
+    background-color: var(--caption);
+}
+
+thead tr:nth-child(2) {
 	background-color: var(--back2);
+	color: white;
 }
 
 td {
@@ -42,6 +53,23 @@ td {
 tbody tr:nth-child(even) {
 	background-color: var(--zebra);
 }
+tbody tr:nth-child(4) td:last-child {
+	background-color: var(--back2);
+	color: white;
+}
 tfoot {
     background-color: var(--caption);
+}
+
+@media only screen and (min-width: 300px ){
+	body {
+		font-size: 16px;
+	}
+	th, td {
+		padding: 7px 15px;
+		border: 1px solid var(--borderlight);
+	}
+	thead tr:nth-child(1) {
+		font-size: 2rem;
+	}
 }
