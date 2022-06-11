@@ -175,7 +175,6 @@ main h2,h3 {
     padding: 0.4rem;
     border: 1px #A1B0AB solid;
 }
-
 .discover h2{
     margin: 10px;
 }
@@ -207,7 +206,111 @@ main h2,h3 {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
+/*--------------------------------------join page-------------------------------------------------*/
+form{
+    margin: 0 auto;
+    max-width: 500px;
+}
+hr{
+    margin: 0 auto;
+    max-width: 500px;   
+}
+main.join h2{
+    margin-top: 1.5rem;
+}
+form fieldset {
+    margin: 1.2rem 0.2rem;
+    border: 1px solid #1C211D;
+    border-radius: 8px;
+    padding: .5rem 2%;
+    background-color: #D5ECD4;
+}
+form legend{
+    color: #1C211D;
+    font-family: 'Libre Baskerville', serif;
+    margin: 0 1rem;
+    padding: 0 .5rem 0.8rem .5rem;
+}
+form label.top{
+    display:block;
+    padding-bottom: 1rem;
+    color: #1C211D;
+    font-size: 0.9rem;
+}
 
+form label.top input, form label.top input select{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #D5ECD4;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #1C211D;
+    width:100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label.top textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #D5ECD4;
+    border-radius: 4px;
+    max-height: 40em;
+    height: 7em;
+    padding: 0.75em;
+    color: #1C211D;
+    width:100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label.sbs{
+    display: block;
+    padding: 0.75rem 0;
+    color: #1C211D;
+}
+form input.submitBtn {
+    border: solid 1px #555;
+    background-color: #D5ECD4;
+    color: #1C211D;
+    border-radius: 0.7rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+main.join .benefits{
+    margin: 4rem;
+    display: none;
+
+}
+main.join .benefits p{
+    list-style-type: circle;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    margin-top: 2.5rem;
+}
+main.join ul li{
+    font-weight: 100;
+    margin: 0.5rem;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+form label.top input:required{
+    background-color: rgba(225, 0, 0, 0.1);
+}
+form label.top input:required:valid{
+    background-color: rgba(0, 225, 0, 0.3);
+}
+/*-----------------------------thank you page ---------------------------------*/
+main.thanks h2,main.thanks p {
+    margin-top: 3rem;
+    text-align: center;
+}
+main.thanks p {
+    margin-bottom: 3rem;
+}
 
 #hamburgerBtn span:nth-child(1) {display: block;}
 #hamburgerBtn span:nth-child(2) {display: none;}

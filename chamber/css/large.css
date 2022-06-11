@@ -118,6 +118,21 @@
     .discover div:nth-of-type(2) h3{
         clear: both;
     }
+/*-------------------------join page------------------------------*/
+    main.join{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main.join .benefits{
+        display: block;
+    }
+    main.join .introduction{
+        grid-column: 1/3;
+    }
+    main.join form{
+        margin: 0 4rem;
+    }
+/*----------------------------------------------------------------*/
     footer .title {
         margin-left: 40px;
     }
