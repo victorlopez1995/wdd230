@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    font-family: 'Great Vibes', cursive;
+    margin: 20px auto;
+}
+header h1{
+    text-align: center;
+}
+main .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 0.5rem;
+    text-align: center;
+    justify-items: center;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #555;
+    background-color: #D6C7A3;
+}
+main div.cards h2{
+    font-family: 'Great Vibes', cursive;
+    margin: 0.5rem;
+}
+main div.cards p{
+    margin: 0.5rem;
+}
+section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    width: 100%;
+    background-color: #ECE083;
+    border: 1px solid #555;
+  }
+img {
+    width: auto;
+    margin: 0.5rem;
+    max-height: 280px;
+    box-shadow: 0 0 30px #777;
+    border: 1px solid #333;
+  }  
+  footer{
+    text-align: center;
+    margin: 1rem
+  }
