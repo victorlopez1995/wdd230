@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="chamber of commerce in Chia - Moon's Road">
+    <title>Moon's Road - Join the Chamber</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/myfavicon.ico">
+    <script src="js/join.js" defer></script>
+    <script src="js/gridList.js" defer></script>
+</head>
+<body>
+    <div id="banner">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.<button id="close">❌</button></div>
+    <header>
+        <img class="logo" src="images/logo.webp" alt="moonsroad logo">
+        <div class="name">
+            <h1>Moon's Road</h1>
+            <h2>Chamber of Commerce</h2>
+        </div>
+        <div class="social">
+            <a href="https://es-la.facebook.com/"><img src="images/facebook.png" alt="facebook logo"></a>
+            <a href="https://www.linkedin.com/"><img src="images/linkedln.png" alt="linkedln logo"></a>
+        </div>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <span class="date" id="currentdate"></span>
+        <nav>
+            <ul id="primaryNav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>   
+    </header>
+    <main class="directory">
+        <picture>
+            <img id="grid" src="images/grid.png" alt="grid logo">
+            <img id="list" src="images/list.png" alt="list logo">
+        </picture>
+        <div class="cards grid"></div>        
+    </main>
+    <footer>
+        <div class="title">
+            <img src="images/logo.webp" alt="moonsroad logo">
+            <div>
+                <h1>Moon's Road-Chamber of Commerce</h1>
+                <p>Carrera 2 # 23-73</p>
+                <p>Chia-Cundinamarca</p>
+            </div>
+        </div>
+        <div class="contact">
+            <p>info@moonsroad.org</p>
+            <p>+57 300-987-6543</p>
+            <p>&#128205;<a href="https://www.google.com/maps/place/3+esquinas,+Ch%C3%ADa,+Cundinamarca/@4.8751798,-74.0398801,16z/data=!4m5!3m4!1s0x8e40781a7d2fe269:0xd8ab2c87fbfb2198!8m2!3d4.8789558!4d-74.0410284">Location map</a></p>
+        </div>
+        <div class="end">
+            <p>&copy; <span id="currentyear"></span> Moon's Road Chamber </p>
+            <p class="line">|</p>
+            <p><b>Victor López</b></p>
+            <p class="line">|</p>
+            <p>WDD 230 Project</p>
+            <p class="line">|</p>
+            <p>Last Updated: <span id="lastModific"></span></p>
+            <script src="js/date.js"></script>
+        </div>
+    </footer>
+</body>
+</html>

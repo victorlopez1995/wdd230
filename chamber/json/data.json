@@ -1,26 +1,26 @@
 {
 	"companies": [{
-			"name": "DelArtesano",
-			"address": "Cl 43 No. 50-56",
-			"phone": "312 450 5026",
-			"website": "www.delartesano.com",
-			"image": "",
-			"membership": "Bronze"
+			"name": "BUKË-Artesanos del Pan",
+			"address": "Km 2 Vía Chía - Cajicá",
+			"phone": "321 985 1910",
+			"website": "https://www.panaderiabuke.com/",
+			"image": "images/logos/buke.jpg",
+			"membership": " Bronze"
 		},
 		{
-			"name": "River People",
-			"address": "Cl 36 No. 31-39",
-			"phone": "300 210 8086",
-			"website": "www.riverpeople.com",
-			"image": "",
-			"membership": "Bronze"
+			"name": "El Gato Amarillo-Clinica Veterinaria",
+			"address": "Cl 19 #5A-105",
+			"phone": "316 319 2505",
+			"website": "https://elgatoamarilloveterinaria.com/",
+			"image": "images/logos/elgatoamarillo.png",
+			"membership": "Non-Profit"
 		},
 		{
-			"name": "Lemon & Co",
-			"address": "Cl 30 No. 19-52",
-			"phone": "315 251 0407",
-			"website": "www.lemonandco.com",
-			"image": "",
+			"name": "El Galapago",
+			"address": "Cl 19 # 14-08",
+			"phone": "302 365 3612",
+			"website": "https://www.elgalapago.com/",
+			"image": "images/logos/elgalapago.png",
 			"membership": "Silver"
 		},
 		{
@@ -28,7 +28,7 @@
 			"address": "Cr 9 No. 19A-89",
 			"phone": "315 423 9499",
 			"website": "https://todopanchia.com/",
-			"image": "",
+			"image": "images/logos/todopanchia.jpg",
 			"membership": "Gold"
 		},
 		{
@@ -36,7 +36,7 @@
 			"address": "Cl 3 No. 11A-56",
 			"phone": "315 355 9096",
 			"website": "http://www.andrescarnederes.com/",
-			"image": "",
+			"image": "images/logos/andres.png",
 			"membership": "Silver"
 		},
 		{
@@ -44,32 +44,32 @@
 			"address": "Km 2.5 Vía Chía - Cajicá",
 			"phone": "601 580 4070",
 			"website": "https://fontanarcentrocomercial.com/",
-			"image": "",
+			"image": "images/logos/fontanar.png",
 			"membership": "Bronze"
 		},
 		{
-			"name": "El Galapago",
-			"address": "Cl 19 # 14–08",
-			"phone": "302 365 3612",
-			"website": "https://www.elgalapago.com/",
-			"image": "",
+			"name": "Lemon & Co",
+			"address": "Cl 30 No. 19-52",
+			"phone": "315 251 0407",
+			"website": "www.lemonandco.com",
+			"image": "images/lemon.png",
 			"membership": "Silver"
 		},
 		{
-			"name": "El Gato Amarillo-Clinica Veterinaria",
-			"address": "Cl 19 #5A-105",
-			"phone": "316 319 2505",
-			"website": "https://elgatoamarilloveterinaria.com/",
-			"image": "",
-			"membership": "Non-Profit"
+			"name": "River People",
+			"address": "Cl 36 No. 31-39",
+			"phone": "300 210 8086",
+			"website": "www.riverpeople.com",
+			"image": "images/riverpeople.png",
+			"membership": "Bronze"
 		},
 		{
-			"name": "BUKË-Artesanos del Pan",
-			"address": "Km 2 Vía Chía - Cajicá",
-			"phone": "321 985 1910",
-			"website": "https://www.panaderiabuke.com/",
-			"image": "",
-			"membership": " Bronze"
+			"name": "DelArtesano",
+			"address": "Cl 43 No. 50-56",
+			"phone": "312 450 5026",
+			"website": "www.delartesano.com",
+			"image": "images/delartesano.png",
+			"membership": "Bronze"
 		}
 	]
 }

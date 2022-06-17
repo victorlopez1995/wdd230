@@ -318,6 +318,59 @@ main.thanks p {
 #hamburgerBtn.open span:nth-child(1) {display: none;}
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
+/*-----------------------------directory page ---------------------------------*/
+main.directory picture{
+    display: flex;
+    justify-content: center;
+}
+main.directory picture img {
+    margin: 1rem;
+    width: 2rem;
+}
+main.directory div.grid{
+    display: block;
+}
+main.directory div.grid section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    background-color: #D5ECD4;
+    border: 1px #A1B0AB solid;
+  }
+  main.directory div.list section {
+    margin: 0.5rem;
+    padding: 0.5rem;
+  }
+  main.directory div.list section:nth-child(odd) {
+    background-color: #D5ECD4;
+  }
+main.directory div.cards h2{
+    margin: 0.5rem;
+}
+main.directory div.cards p{
+    margin: 0.25rem;
+    text-align: center;
+}
+main.directory div.grid img {
+    width: 80%;
+    margin: 0.5rem;
+  }  
+main.directory div.list h2{
+    margin-left: 0.075rem;
+    font-size: 1rem;
+    text-align: left;
+}
+main.directory div.list img{
+    display: none;
+}
+main.directory div.list p{
+    margin-left: 0.075rem;
+    text-align: left;
+}
+
 footer{
 	background-color: #1C211D;
 	color: #D5ECD4;

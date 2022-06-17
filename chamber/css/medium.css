@@ -89,4 +89,22 @@
     .end .line{
         display: inline;
     }
+    /*-----------------------------directory------------------------*/
+    main.directory div.grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main.directory div.grid section {
+        height: 400px;
+      }
+    main.directory div.grid p:nth-of-type(3) {
+        font-size: 0.84rem;
+    }
+    main.directory div.list p:nth-of-type(3) {
+        font-size: 0.76rem;
+    }
+    main.directory div.list section {
+        display: grid;
+        grid-template-columns: 1fr 100px 100px 1fr ;
+      }
 } 
