@@ -319,11 +319,11 @@ main.thanks p {
 #hamburgerBtn.open span:nth-child(2) {display: block;}
 
 /*-----------------------------directory page ---------------------------------*/
-main.directory picture{
+main.directory figure{
     display: flex;
     justify-content: center;
 }
-main.directory picture img {
+main.directory figure img {
     margin: 1rem;
     width: 2rem;
 }
