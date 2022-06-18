@@ -95,8 +95,8 @@
         grid-template-columns: 1fr 1fr;
     }
     main.directory div.grid section {
-        height: 400px;
-      }
+        height: 450px;
+      } 
     main.directory div.grid p:nth-of-type(3) {
         font-size: 0.84rem;
     }
