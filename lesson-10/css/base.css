@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-size: 16px;
+	font-family: 'Source Sans Pro', sans-serif;
+    margin: 20vh auto;
+    text-align: center;
+}
+h1, h2, p, figure {
+    margin: 2rem;
+}
+
+img{
+    width: 20vw;
+    max-width: 200px;
+    border: 2px solid #555;
+    border-radius: 10vw;
+    background-color:lightblue;
+}
