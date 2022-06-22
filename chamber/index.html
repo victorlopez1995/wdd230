@@ -50,7 +50,7 @@
                 <img src="images/wdd230-large.jpg" alt="hero image">-->
                 <img src="images/hero.jpeg" alt="hero image">
             </picture>
-            <a href="join.html"><button>Join the chamber</button></a>
+            <button type="button" onclick="window.location.href='join.html';">Join the chamber</button>
         </div>
         <div>
             <h2>entrepreneur fair</h2>
@@ -61,10 +61,10 @@
         </div>
         <div>
             <h2>Weather</h2>
-            <img src="images/partly_cloudy.png" alt="weather state">
-            <h3><span id="temperature">9</span>°C<br>Partly cloudy</h3>
+            <img id="weather-icon" src="" alt="">
+            <h3><span id="temperature">9</span>°C<br><span id="condition"></span></h3>
             <p>
-                Wind speed: <span id="wind">14</span> km/h<br>
+                Wind speed: <span id="wind"></span> km/h<br>
                 Wind Chill: <span id="chill"></span>
             </p>
         </div>
@@ -81,7 +81,7 @@
                 </p>
         </div>
         <div>
-            <a href="join.html"><button>Join Us!</button></a>
+            <button type="button" onclick="window.location.href='join.html';">Join Us!</button>
             <p>Discover how to join the chamber of commerce and how it will benefit
                your organitation! 
             </p>
@@ -127,6 +127,8 @@
             <p><b>Victor López</b></p>
             <p class="line">|</p>
             <p>WDD 230 Project</p>
+            <p class="line">|</p>
+            <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p> 
             <p class="line">|</p>
             <p>Last Updated: <span id="lastModific"></span></p>
             <script src="js/date.js"></script>

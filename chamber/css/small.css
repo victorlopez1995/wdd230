@@ -397,6 +397,9 @@ footer{
     padding-bottom: 1rem;
     font-size: 0.8rem;
 }
+.end a {
+    color:white;
+}
 .line {
     display: none;
 }
