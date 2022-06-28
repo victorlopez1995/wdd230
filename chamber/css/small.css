@@ -381,13 +381,10 @@ form label.top textarea:required{
 form label.top textarea:required:valid{
     background-color: rgba(0, 225, 0, 0.3);
 }
-main.contact div.us {
-    margin: 0 auto;
-    max-width: 500px;
-}
 
 main.contact div.information{
-    margin: 1.2rem 0.2rem;
+    margin: 0 auto;
+    max-width: 500px;
     border: 1px solid #1C211D;
     border-radius: 8px;
     padding: .5rem 2%;
@@ -396,6 +393,7 @@ main.contact div.information{
 }
 
 iframe{
+    width:100%;
     border-radius: 8px;
     margin-top: 1rem;    
 }
