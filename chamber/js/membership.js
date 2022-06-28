@@ -37,6 +37,9 @@ let count = 0 ;
     h3.textContent = `${company.description}`;
     website.innerHTML = `<a href="${company.website}">${company.website}</a>`;
     phone.textContent = `${company.phone}`;
+    if (count == 3){
+        card.setAttribute('class','lastspot');
+    }
     
   
     // Add/append the section(card) with the h2 element
