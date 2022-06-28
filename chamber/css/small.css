@@ -157,10 +157,15 @@ main h2,h3 {
     margin: 0.4rem;
     padding: 1rem;
     height: auto;
+   text-align: center;
 }
-.spotlight div:nth-of-type(1) img, .spotlight div:nth-of-type(2) img, .spotlight div:nth-of-type(1) p, .spotlight div:nth-of-type(2) p{
+
+.spotlight div:nth-of-type(1) img, .spotlight div:nth-of-type(2) img{
+    width: 60%; 
+}
+.spotlight div:nth-of-type(1) p, .spotlight div:nth-of-type(2) p{
     width: 100%;
-    text-align: center;
+    margin: 0 auto;
 } 
 .lastspot{
     display: none;

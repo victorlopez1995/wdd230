@@ -37,6 +37,9 @@
         flex-direction: column;
         justify-content: space-around;
     }
+    .index .spotlight div img{
+        margin: auto;
+    }
     .index .spotlight .lastspot{
         display: none;
     }
