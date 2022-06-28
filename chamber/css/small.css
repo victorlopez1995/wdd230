@@ -371,6 +371,35 @@ main.directory div.list p{
     text-align: left;
 }
 
+/*--------------------------contact page---------------------------*/
+main.contact h2{
+    margin-top: 1.5rem;
+}
+form label.top textarea:required{
+    background-color: rgba(225, 0, 0, 0.1);
+}
+form label.top textarea:required:valid{
+    background-color: rgba(0, 225, 0, 0.3);
+}
+main.contact div.us {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+main.contact div.information{
+    margin: 1.2rem 0.2rem;
+    border: 1px solid #1C211D;
+    border-radius: 8px;
+    padding: .5rem 2%;
+    background-color: #D5ECD4;
+    text-align: center;
+}
+
+iframe{
+    border-radius: 8px;
+    margin-top: 1rem;    
+}
+
 footer{
 	background-color: #1C211D;
 	color: #D5ECD4;
