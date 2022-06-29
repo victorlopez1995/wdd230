@@ -4,7 +4,10 @@ const display = document.querySelector(".spotlight");
 //-----------------------------get cards from json --------------------------------- //
 
 const requestURL = 'json/data.json';
-
+let countext = 0; 
+let count = 0 ;
+let random = 0;
+let include = [];
 
 fetch(requestURL)
   .then(function (response) {
@@ -13,20 +16,26 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const companies = jsonObject['companies'];
+    while (countext< 3){
     companies.forEach(displaycompanies);
+    }
   });
 
-let count = 0 ;  
+
   function displaycompanies(company) {
     // Create elements to add to the document
-    if (company.membership == "Gold" && count< 3) {
+    random = getRandomInt(2);
+    if ((company.membership == "Gold" || company.membership == "Silver" ) && count< 3 && countext< 3 && random == 1 && (!(include.includes(company.name)))) {
     count += 1;
+    countext += 1;
     let card = document.createElement('div');
     let h2 = document.createElement('h2');
     let logo = document.createElement('img');
     let h3 = document.createElement('p');
     let website = document.createElement('p');
     let phone = document.createElement('p');
+
+    include.push(company.name)
 
     h2.textContent = `${company.name}`;
 
@@ -53,5 +62,9 @@ let count = 0 ;
     document.querySelector('div.spotlight').appendChild(card);
     }
   }
+
+function getRandomInt(max) {
+  return Math.floor(Math.random() * max);
+}
 
 
