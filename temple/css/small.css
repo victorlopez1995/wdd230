@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+h1{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black; 
+    font-weight:1100;   
+}
+header{
+    background-image: url("../images/banner.jpg");
+}
+header div.title{
+    display: flex;
+    text-align: center;
+}
+header div.title img {
+    max-width: 100px;
+    margin: 1rem;
+}
