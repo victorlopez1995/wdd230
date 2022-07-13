@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">  
+    <link rel="stylesheet" href="css/large.css"> 
+    <script src="js/menu.js" defer></script> 
 </head>
 <body>
     <header>
@@ -20,8 +21,8 @@
             <h1>The Temple Inn & Suites</h1>
         </div>
         <div class="buttons">
-            <button id="MenuBtn"><span>Menu</span><span>X</span></button>
-            <button id="ContactBtn"><span>Contact us</span><span>X</span></button>
+            <button id="MenuBtn"><span>Menu</span></button>
+            <button id="ContactBtn"><span>Contact us</span></button>
             <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
             <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
         </div>
@@ -32,9 +33,38 @@
                 <li><a href="reservation.html">Reservation</a></li>
                 <li><a href="services.html">Services</a></li>
             </ul>
-
         </nav>
+        <form method="get" id="headerForm">
+            <label> Name* <input type="text" name="name" required> </label>
+            <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+            <label> Question/Concern* <textarea name="description" required></textarea> </label>
+            <input type="submit" value="Send us a Message" class="submitBtn">
+        </form>
     </header>
-    
+    <main class="index">
+        <a class="book" href="reservation.html">Book Now</a>
+        <div class="temple-information">
+            <h2>
+                Salt Lake Temple
+            </h2>
+            <img src="images/saltlake.jpg" alt="Salt Lake Temple at night">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Harum laborum molestias sapiente asperiores minima itaque 
+                repellendus fugit amet, ullam earum odit facilis reiciendis 
+                tempore distinctio, necessitatibus autem aperiam iste, facere 
+                non commodi. Veritatis porro, ab eos magni, sint illo sit 
+                cum ratione expedita laboriosam reprehenderit odio maxime 
+                molestias deleniti cumque!
+            </p>
+        </div>
+        <div class="weather">
+            <h2>Weather</h2>
+            <figure>
+                <img src="#" alt="#" id="weather-icon" />
+                <figcaption></figcaption>
+            </figure>
+        </div>
+    </main>
 </body>
 </html>
