@@ -1,3 +1,8 @@
+:root {
+    --strongGreen: #306B34;
+    --softGreen: #B0D4B2;
+    --titlesGreen: #818547;
+}
 * {
     margin: 0;
     padding: 0;
@@ -8,30 +13,175 @@ body {
     font-family: 'Libre Baskerville', serif;
 }
 h1{
+    display: flex;
     font-family: 'Julius Sans One', sans-serif;
     color: white; 
-    font-size: 2rem;   
+    font-size: 1.8rem; 
+    margin: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+    padding: 1.2rem;
+}
+p{
+    font-size: 0.8rem;
+    line-height: 2;
+    padding: 1.2rem;
+    text-align: left;
 }
 /*-------------------------------------------HEADER---------------------------------------------*/
-header{
+
+header div.title{
+    display: flex;
+    text-align: center;
     background-image: url("../images/banner.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-header div.title{
-    display: flex;
-    text-align: center;
 }
 header div.title img {
     max-width: 100px;
     margin: 1rem;
 }
 header div.buttons {
+    background-color: var(--softGreen);
     display: grid;
     grid-template-columns: 3fr 3fr 1fr 1fr;
+}
+header div.buttons button, header div.buttons a{
+    font-family: 'Julius Sans One', sans-serif;
+    color: black;
+    justify-self: center;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+}
+header div.buttons button:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor: pointer;
 }
 header div.buttons a img{
     width: 25px;
     margin: 0.1rem;
+}
+/*-------nav---------*/
+nav ul{
+    background-color: var(--softGreen);
+}
+nav ul li a {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    font-size: 1rem;
+}
+header nav ul li a:hover {
+    background-color: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+header nav ul {display: none;}
+header nav ul.open {display: block;}
+
+/*-----------contact------------*/
+Header form{
+    background-color: var(--softGreen);
+    padding: 0.8rem;
+}
+form label{
+    font-family: 'Julius Sans One', sans-serif;
+    display:block;
+    padding-bottom: 1rem;
+    color: #1C211D;
+    font-size: 0.9rem;
+}
+form label input{
+    -webkit-appearance: none;
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    font-size: 0.8rem;
+    padding: .75rem;
+    border: none;
+    color: black;
+    width:100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form label textarea{
+    -webkit-appearance: none;
+    font-family: 'Libre Baskerville', serif;
+    display: block;
+    font-size: 0.8rem;
+    max-height: 40em;
+    border: none;
+    height: 7em;
+    padding: 0.75em;
+    color: black;
+    width:100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+form input.submitBtn {
+    font-family: 'Julius Sans One', sans-serif;
+    border: solid 1px #555;
+    background-color: rgba(225, 225, 225, 0.6);
+    color: black;
+    border-radius: 0.7rem;
+    padding: 0.75rem 1.5rem;
+    width: 96%;
+    max-width: 20rem;
+}
+header form {display: none;}
+header form.open {display: block;}
+
+/*----------------------------------------------Main Index-------------------------------------------------------------------*/
+main.index div.temple-information {
+    margin: 1rem auto;
+    text-align: center;
+
+}
+main.index div.temple-information img{
+    width: 80%;
+    max-width: 300px;
+}
+main.index a.book {
+    font-family: 'Julius Sans One', sans-serif;
+    position: fixed;
+    top: 200px;
+    right: 10px;
+    background: var(--softGreen);
+    padding: 0.8rem;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    width: 70px;
+  }
+/*------------weather--------------*/
+main.index div.weather{
+    text-align: center;
+    background-color: var(--strongGreen);
+    color: white;
+}
+main.index div.weather figure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+main.index div.weather figure img{
+    grid-row: 1/4;
+    width: 60%;
+    justify-self: center;
+}
+main.index div.weather figure span, main.index div.weather figure figcaption, main.index div.weather figure p {
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
