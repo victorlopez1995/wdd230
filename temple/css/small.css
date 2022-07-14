@@ -26,6 +26,9 @@ h2{
     font-weight: 100;
     padding: 1.2rem;
 }
+h4{
+    padding: 1rem;
+}
 p{
     font-size: 0.8rem;
     line-height: 2;
@@ -191,4 +194,17 @@ main.index div.weather div.forecast p{
     margin: 0.5rem;
     text-align: center;
 }
-/*---------second part------------*/
+/*--------------------------------------------------footer----------------------------------------------------------*/
+footer {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding: 0.5rem;
+}
+footer p, footer div.social {
+    text-align: center;
+    padding: 0.1rem;
+}
+footer div.social img{
+    width: 25px;
+    margin: 0.1rem;
+}

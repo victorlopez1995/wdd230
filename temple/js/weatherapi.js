@@ -10,7 +10,7 @@ const temp1 = document.querySelector('#temp-1');
 const temp2 = document.querySelector('#temp-2');
 const temp3 = document.querySelector('#temp-3');
 
-const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&appid=b844f9ee9f65570ac4f77eb5731d2c13';
+const url = 'https://api.openweathermap.org/data/2.5/onecall?lat=38.9807&lon=-77.1003&exclude=hourly,minutely&appid=b844f9ee9f65570ac4f77eb5731d2c13';
 
 async function apiFetch() {
     try {
