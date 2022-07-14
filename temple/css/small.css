@@ -168,6 +168,7 @@ main.index div.weather{
     text-align: center;
     background-color: var(--strongGreen);
     color: white;
+    padding-bottom: 1rem;
 }
 main.index div.weather figure{
     display: grid;
@@ -184,5 +185,10 @@ main.index div.weather figure span, main.index div.weather figure figcaption, ma
     padding: 0;
     margin: 0;
     text-align: left;
+}
+main.index div.weather div.forecast p{
+    padding: 0;
+    margin: 0.5rem;
+    text-align: center;
 }
 /*---------second part------------*/
