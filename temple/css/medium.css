@@ -1,0 +1,30 @@
+@media only screen and (min-width: 32.5em ){
+    header div.title{
+        justify-content: space-around;
+    }
+    main.index div.temple-information img{
+        float: left;
+        margin: 0 1rem 1rem 1.5rem;
+    }
+    main.index div.weather{
+        clear: both;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    main.index div.weather h2{
+        grid-column: 1/3;
+    }   
+    main.index div.weather figure{
+        grid-row: 2/4;
+    }
+    main.index div.weather div.forecast{
+        grid-row: 3/4;
+    }
+
+
+
+
+
+
+}

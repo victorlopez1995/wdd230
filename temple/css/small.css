@@ -12,9 +12,11 @@ body {
     font-size: 16px;
     font-family: 'Libre Baskerville', serif;
 }
+h1, h2, h3, h4{
+    font-family: 'Julius Sans One', sans-serif;
+}
 h1{
     display: flex;
-    font-family: 'Julius Sans One', sans-serif;
     color: white; 
     font-size: 1.8rem; 
     margin: 0.5rem;
@@ -22,10 +24,10 @@ h1{
     align-items: center;
 }
 h2{
-    font-family: 'Julius Sans One', sans-serif;
     font-weight: 100;
     padding: 1.2rem;
 }
+
 h4{
     padding: 1rem;
 }
@@ -52,7 +54,7 @@ header div.title img {
 header div.buttons {
     background-color: var(--softGreen);
     display: grid;
-    grid-template-columns: 3fr 3fr 1fr 1fr;
+    grid-template-columns: 5fr 5fr 1fr 1fr;
 }
 header div.buttons button, header div.buttons a{
     font-family: 'Julius Sans One', sans-serif;
