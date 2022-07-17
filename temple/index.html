@@ -25,23 +25,26 @@
         <div class="buttons">
             <button id="MenuBtn"><span>Menu</span></button>
             <button id="ContactBtn"><span>Contact us</span></button>
+            <div class="social">
             <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
             <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
+            </div>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <form method="get" id="headerForm">
+                <label> Name* <input type="text" name="name" required> </label>
+                <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                <label> Question/Concern* <textarea name="description" required></textarea> </label>
+                <input type="submit" value="Send us a Message" class="submitBtn">
+            </form>
         </div>
-        <nav>
-            <ul id="primaryNav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="temple.html">Temple</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="services.html">Services</a></li>
-            </ul>
-        </nav>
-        <form method="get" id="headerForm">
-            <label> Name* <input type="text" name="name" required> </label>
-            <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
-            <label> Question/Concern* <textarea name="description" required></textarea> </label>
-            <input type="submit" value="Send us a Message" class="submitBtn">
-        </form>
+        
     </header>
     <main class="index">
         <a class="book" href="reservation.html">Book Now</a>
@@ -60,20 +63,50 @@
                 molestias deleniti cumque!
             </p>
         </div>
+        <div class="right-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <h3>Contact Us</h3>
+            <form method="get">
+                <label> Name* <input type="text" name="name" required> </label>
+                <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                <label> Question/Concern* <textarea name="description" required></textarea> </label>
+                <input type="submit" value="Send us a Message" class="submitBtn">
+            </form>
+        </div>
         <div class="weather">
             <h2>Weather</h2>
-            <figure>
+            <div class="figure">
                 <img src="#" alt="#" id="weather-icon" />
-                <figcaption></figcaption>
+                <P><span id="figcaption"></span></P>
                 <p>Temperature: <span id="current-temp"></span>&deg;C</p>
                 <p>Humidity: <span id="current-hum"></span>%</p>
-            </figure>
+            </div>
             <h3>Forecast</h3>
             <div class="forecast">
                 <p><span id="day-1"></span>: <span id="temp-1"></span>&deg;C</p>
                 <p><span id="day-2"></span>: <span id="temp-2"></span>&deg;C</p>
                 <p><span id="day-3"></span>: <span id="temp-3"></span>&deg;C</p>
             </div>
+        </div>
+        <div class="second-footer">
+            <h4>The Temple Inn & Suites</h4>
+            <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>contact@hotelinn.org</p>
+            <p>+1 809-987-643</p>
+            <div class="social">
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
+            </div>
+            <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+            <p>&copy; <span id="currentyear-2"></span> The Temple Inn & Suites </p>
         </div>
     </main>
     <footer>
