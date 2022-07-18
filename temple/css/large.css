@@ -26,15 +26,20 @@
         justify-content: center;
         align-items: center;
     }
-    main.index {
+    main {
         display: grid;
         grid-template-columns: 1fr 30vw;
     }
-    main.index div.right-menu {
+    main.temple-list {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+    main div.right-menu {
         display: block;
         background-color: var(--softGreen);
+        grid-column: 2/3;
     }
-    main.index nav ul li a {
+    main nav ul li a {
         text-align: center;
         display: block;
         padding: .8rem 2vw;
@@ -43,27 +48,27 @@
         border-top: 1px solid rgba(0,0,0,0.5);
         font-size: 1rem;
     }
-    main.index nav ul li a:hover {
+    main nav ul li a:hover {
         background-color: rgba(0,0,0,0.3);
         cursor: pointer;
     }
-    main.index h3{
+    main h3{
         margin-top: 1rem;
         text-align: center;
     }
-    main.index div.right-menu form{
+    main div.right-menu form{
         background-color: var(--softGreen);
         padding: 0.8rem;
         grid-column: 1/4;
     }
-    main.index div.right-menu form label{
+    main div.right-menu form label{
         font-family: 'Julius Sans One', sans-serif;
         display:block;
         padding-bottom: 1rem;
         color: #1C211D;
         font-size: 0.9rem;
     }
-    main.index div.right-menu form label input{
+    main div.right-menu form label input{
         -webkit-appearance: none;
         font-family: 'Libre Baskerville', serif;
         display: block;
@@ -75,7 +80,7 @@
         max-width: 20rem;
         background-color: rgba(0, 0, 0, 0.1);
     }
-    main.index div.right-menu form label textarea{
+    main div.right-menu form label textarea{
         -webkit-appearance: none;
         font-family: 'Libre Baskerville', serif;
         display: block;
@@ -89,7 +94,7 @@
         max-width: 20rem;
         background-color: rgba(0, 0, 0, 0.1);
     }
-    main.index div.right-menu form input.submitBtn {
+    main div.right-menu form input.submitBtn {
         font-family: 'Julius Sans One', sans-serif;
         border: solid 1px #555;
         background-color: rgba(225, 225, 225, 0.6);
@@ -118,12 +123,6 @@
     footer{
         display: none;
     }
-    main div.second-footer {
-        font-family: 'Julius Sans One', sans-serif;
-        text-align: center;
-        padding: 0.5rem;
-        background-color: var(--softGreen);
-    }
     div.second-footer p, div.second-footer div.social {
         text-align: center;
         padding: 0.1rem;
@@ -134,6 +133,9 @@
     }
     main div.second-footer{
         display: block;
+        font-family: 'Julius Sans One', sans-serif;
+        text-align: center;
+        padding: 0.5rem;
         background-color: rgba(48, 107, 52, 0.5);
     }
     main.index div.weather{
@@ -160,5 +162,8 @@
     main.index div.weather div.forecast{
         grid-column: 3/4;
         grid-row: 2/3;
+    }
+    main.temple-list div.cards {
+        grid-row: 1/3;
     }
 }

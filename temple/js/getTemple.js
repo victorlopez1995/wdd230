@@ -27,8 +27,9 @@ fetch(requestURL)
     let ulServices = document.createElement('ul');
     let ulHistory = document.createElement('ul');
     let ulClosure = document.createElement('ul');
-
-
+    let star = document.createElement('img');
+    let starLike = document.createElement('img');
+    let starButton = document.createElement('button');
 
     temple.services.forEach( element => {
         let li = document.createElement('li');
@@ -45,37 +46,31 @@ fetch(requestURL)
         li.textContent = `${element}}`;
         ulClosure.appendChild(li); 
     } )
-    // for (var i = 0; i < temple.services.prototype.lenght-1; i++) {
-    //     let li = document.createElement('li');
-    //     li.textContent = `${temple.services[i]}`;
-    //     u
-    //     ulServices.appendChild(li);
-    // }
-    // for (var i = 0; i < temple.history.prototype.lenght-1; i++) {
-    //     let li = document.createElement('li');
-    //     li.textContent = `${temple.history[i]}`;
-    //     ulHistory.appendChild(li);
-    // }
-    // for (var i = 0; i < temple.templeClosureSchedule.prototype.lenght-1; i++) {
-    //     let li = document.createElement('li');
-    //     li.textContent = `${temple.templeClosureSchedule[i]}`;
-    //     ulClosure.appendChild(li);
-    // }
 
     photo.setAttribute('src', temple.image);
     photo.setAttribute('alt', `logo of ${temple.name}`);
     photo.setAttribute('loading', 'lazy');
+
+    star.setAttribute('src', "images/star.png");
+    star.setAttribute('alt', `logo of star`);
+
+    starLike.setAttribute('src', "images/star_like.png");
+    starLike.setAttribute('alt', `logo of star`);
+
+    starButton.appendChild(star);
+    starButton.appendChild(starLike);    
   
     h3.textContent = `${temple.name}`;
     email.innerHTML = `<a href="${temple.emailLink}">${temple.email}</a>`;
     phone.textContent = `${temple.phone}`;
     address.textContent = `${temple.address}`;
     services.textContent = `Services`;
-    history.textContent = `history`;
-    closure.textContent = `temple closure schedule`;
+    history.textContent = `History`;
+    closure.textContent = `Temple Closure Schedule`;
     
     // Add/append the section(card) with the h2 element
     card.appendChild(h3);
+    card.appendChild(starButton)
     card.appendChild(photo);
     card.appendChild(address);
     card.appendChild(email);

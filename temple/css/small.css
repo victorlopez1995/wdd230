@@ -222,3 +222,43 @@ footer div.social img{
 main div.second-footer{
     display: none;
 }
+/*-----------------------------------------------Temple page ----------------------------------------------------*/
+main.temple-list div.cards div {
+ padding: 1rem;
+ text-align: center;
+}
+main.temple-list div.cards div img {
+    width: 100%;
+    max-width: 450px;
+}
+
+main.temple-list div.cards div button {
+    background-color: transparent;
+    border: none;
+    width: 30px;
+}
+
+main.temple-list div.cards div button img:nth-child(1) {display: block;}
+main.temple-list div.cards div button img:nth-child(2) {display: none;}
+
+main.temple-list div.cards div button.open img:nth-child(1) {display: none;}
+main.temple-list div.cards div button.open img:nth-child(2) {display: block;}
+
+main.temple-list div.cards div h3 {
+    padding: 0.5rem;
+}
+main.temple-list div.cards div p, main.temple-list div.cards div ul {
+    font-size: 0.8rem;
+    padding: 0;
+    padding-top: 0.5rem;
+    list-style-position: inside;
+    line-height: 1.5;
+    text-align: left;
+}
+main.temple-list div.cards div:nth-child(even){
+    background-color: var(--strongGreen);
+    color: white;
+}
+main.temple-list div.cards div:nth-child(even) a{
+ color: #B0D4B2;
+}

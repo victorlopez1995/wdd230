@@ -21,8 +21,17 @@
     main.index div.weather div.forecast{
         grid-row: 3/4;
     }
-
-
+    main.temple-list div.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    main.temple-list div.cards div:nth-child(2){
+        grid-column: 1/2;
+    }
+    main.temple-list div.cards div:nth-child(3){
+        grid-row: 1/2;
+    }
 
 
 
