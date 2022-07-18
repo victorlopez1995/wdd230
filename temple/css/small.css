@@ -230,12 +230,14 @@ main.temple-list div.cards div {
 main.temple-list div.cards div img {
     width: 100%;
     max-width: 450px;
+    margin-top: 1rem;
 }
 
 main.temple-list div.cards div button {
     background-color: transparent;
     border: none;
     width: 30px;
+    margin-right: 1rem;
 }
 
 main.temple-list div.cards div button img:nth-child(1) {display: block;}
@@ -245,7 +247,8 @@ main.temple-list div.cards div button.open img:nth-child(1) {display: none;}
 main.temple-list div.cards div button.open img:nth-child(2) {display: block;}
 
 main.temple-list div.cards div h3 {
-    padding: 0.5rem;
+    padding-bottom: 1rem;
+    display: inline;
 }
 main.temple-list div.cards div p, main.temple-list div.cards div ul {
     font-size: 0.8rem;

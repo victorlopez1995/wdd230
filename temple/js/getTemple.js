@@ -69,8 +69,8 @@ fetch(requestURL)
     closure.textContent = `Temple Closure Schedule`;
     
     // Add/append the section(card) with the h2 element
+    card.appendChild(starButton)    
     card.appendChild(h3);
-    card.appendChild(starButton)
     card.appendChild(photo);
     card.appendChild(address);
     card.appendChild(email);
