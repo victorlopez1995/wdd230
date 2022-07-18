@@ -1,0 +1,116 @@
+{
+	"temples": [{
+			"name": "Bogotá Colombia Temple",
+			"address": "Carrera 46 N°127-45 Bogotá Distrito Capital Colombia",
+			"phone": "(57) 1-625-8000",
+			"email": "Send email to temple",
+			"emailLink": "https://www.churchofjesuschrist.org/temples/details/bogota-colombia-temple?lang=eng",
+			"image": "images/temples/bogota.jpg",
+			"services":[
+				"Clothing rental available",
+				"No cafeteria available",
+				"Patron housing available",
+				"Distribution center nearby"
+			] ,
+			"history": [
+				"7 April 1984: Announced",
+				"26 June 1993: Groundbreaking",
+				"24 April 1999: Dedicated"
+			],
+			"ordinanceSchedule": null,
+			"sessionSchedule": null,
+			"templeClosureSchedule":[
+				"Wednesday, 20 July 2022",
+				"Monday, 19 September 2022 - Monday, 28 November 2022",
+				"Thursday, 8 December 2022",
+				"Saturday, 24 December 2022",
+				"Saturday, 31 December 2022 - Sunday, 1 January 2023"
+			]			
+			
+		},
+		{
+			"name": "Barranquilla Colombia Temple",
+			"address": "Carrera 46 via al mar pr 107 Sentido: de Barranquilla a Cartagena, Barranquilla Atlantico, Colombia",
+			"phone": "(57) 5-310-0200",
+			"email": "Send email to temple",
+			"emailLink": "https://www.churchofjesuschrist.org/temples/details/barranquilla-colombia-temple?lang=eng",
+			"image": "images/temples/barranquilla.jpg",
+			"services": [
+				"No clothing rental available",
+				"No cafeteria available",
+				"No patron housing available",
+				"Distribution center nearby"
+			],
+			"history": [
+				"1 October 2011: Announced",
+				"20 February 2016: Groundbreaking",
+				"9 December 2018: Dedicated"
+			],
+			"ordinanceSchedule": null,
+			"sessionSchedule": null,
+			"templeClosureSchedule":[
+				"Saturday, 1 October 2022",
+				"Monday, 17 October 2022 - Monday, 31 October 2022",
+				"Thursday, 8 December 2022",
+				"Saturday, 24 December 2022 - Sunday, 25 December 2022",
+				"Saturday, 31 December 2022 - Sunday, 1 January 2023"
+			]			
+		},
+		{
+			"name": "São Paulo Brazil Temple",
+			"address": "Av. Prof. Francisco Morato, 2390 Caxingui 05512-300 São Paulo - SP, Brazil",
+			"phone": "(55) 11-3723-7600",
+			"email": "Send email to temple",
+			"emailLink": "https://www.churchofjesuschrist.org/temples/details/sao-paulo-brazil-temple?lang=eng",
+			"image": "images/temples/saoPaulo.jpg",
+			"services": [
+				"Clothing rental available",
+				"No cafeteria available",
+				"Patron housing available",
+				"Distribution center nearby"
+			],
+			"history": [
+				"1 March 1975: Announced",
+				"20 March 1976: Groundbreaking",
+				"30 October 1978: Dedicated",
+				"22 February 2004: Rededicated"
+			],
+			"ordinanceSchedule": null,
+			"sessionSchedule": null,
+			"templeClosureSchedule": [
+				"Monday, 1 August 2022 - Monday, 15 August 2022",
+				"Wednesday, 7 September 2022",
+				"Saturday, 1 October 2022",
+				"Saturday, 24 December 2022",
+				"Saturday, 31 December 2022"
+			]			
+		},
+		{
+			"name": "Rio de Janeiro Brazil Temple",
+			"address": "Avenida Das Américas, Nº 9005 CEP 22793-083 Barra Da Tijuca - Rio De Janeiro - RJ Brazil",
+			"phone": "(55) 21-3906-4600",
+			"email": "Send email to temple",
+			"emailLink": "https://www.churchofjesuschrist.org/temples/details/rio-de-janeiro-brazil-temple?lang=eng",
+			"image": "images/temples/rio.jpg",
+			"services": [
+				"No clothing rental available",
+				"No cafeteria available",
+				"Patron housing available",
+				"No distribution center nearby"
+			],
+			"history": [
+				"6 April 2013: Announced",
+				"4 March 2017: Groundbreaking",
+				"8 May 2022: Dedicated"
+			],
+			"ordinanceSchedule": null,
+			"sessionSchedule": null,
+			"templeClosureSchedule":[
+				"Saturday, 1 October 2022 - Sunday, 2 October 2022",
+				"Monday, 17 October 2022 - Monday, 31 October 2022",
+				"Saturday, 24 December 2022 - Sunday, 25 December 2022",
+				"Saturday, 31 December 2022 - Sunday, 1 January 2023"
+			]			
+		}
+	]
+}
