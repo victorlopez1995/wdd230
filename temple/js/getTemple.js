@@ -1,19 +1,21 @@
 //-----------------------------get cards from json --------------------------------- //
 
 const requestURL = 'json/data.json';
+let i = 0;
 
 fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
   .then(function (jsonObject) {
-    console.table(jsonObject);  // temporary checking for valid response and data parsing
+
     const temples = jsonObject['temples'];
     temples.forEach(displaytemples);
   });
 
 
   function displaytemples(temple) {
+    i += 1;
     // Create elements to add to the document
     let card = document.createElement('div');
     let photo = document.createElement('img');
@@ -58,7 +60,10 @@ fetch(requestURL)
     starLike.setAttribute('alt', `logo of star`);
 
     starButton.appendChild(star);
-    starButton.appendChild(starLike);    
+    starButton.appendChild(starLike);  
+    starButton.setAttribute('onclick', "togglestar(this)"); 
+
+    
   
     h3.textContent = `${temple.name}`;
     email.innerHTML = `<a href="${temple.emailLink}">${temple.email}</a>`;
@@ -83,6 +88,8 @@ fetch(requestURL)
     card.appendChild(ulClosure);
 
     document.querySelector('div.cards').appendChild(card);
+
   }
-
-
+function togglestar(item) {
+    item.classList.toggle("open");
+  }
