@@ -14,8 +14,7 @@ fetch(requestURL)
   });
 
 
-  function displaytemples(temple) {
-    i += 1;
+  function displaytemples(temple, index) {
     // Create elements to add to the document
     let card = document.createElement('div');
     let photo = document.createElement('img');
@@ -61,9 +60,13 @@ fetch(requestURL)
 
     starButton.appendChild(star);
     starButton.appendChild(starLike);  
-    starButton.setAttribute('onclick', "togglestar(this)"); 
+    starButton.setAttribute('id', `${index}`);
+    starButton.setAttribute('onclick', "togglestar(this)");
 
-    
+    const local =  getLocalStorage(index);
+    if(local){
+      starButton.classList.toggle("open");    
+    }
   
     h3.textContent = `${temple.name}`;
     email.innerHTML = `<a href="${temple.emailLink}">${temple.email}</a>`;
@@ -74,7 +77,7 @@ fetch(requestURL)
     closure.textContent = `Temple Closure Schedule`;
     
     // Add/append the section(card) with the h2 element
-    card.appendChild(starButton)    
+    card.appendChild(starButton);
     card.appendChild(h3);
     card.appendChild(photo);
     card.appendChild(address);
@@ -88,8 +91,20 @@ fetch(requestURL)
     card.appendChild(ulClosure);
 
     document.querySelector('div.cards').appendChild(card);
+}
 
-  }
+const getLocalStorage = (pos) => {
+  const value = localStorage.getItem(`temple_${pos}`);
+  return value
+}
+
 function togglestar(item) {
     item.classList.toggle("open");
-  }
+
+    if(item.className == "open"){
+      localStorage.setItem(`temple_${item.id}`, item.id); 
+    }
+   else{
+       localStorage.removeItem(`temple_${item.id}`);
+   }
+}

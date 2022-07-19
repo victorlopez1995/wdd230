@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Temple Inn & Suites - Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Libre+Baskerville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css"> 
+    <script src="js/menu.js" defer></script> 
+    <script src="js/weatherapi.js" defer></script> 
+    <script src="js/date.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
+            <h1>The Temple Inn & Suites</h1>
+        </div>
+        <div class="buttons">
+            <button id="MenuBtn"><span>Menu</span></button>
+            <button id="ContactBtn"><span>Contact us</span></button>
+            <div class="social">
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>
+            </div>
+            <nav>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <form method="get" id="headerForm">
+                <label> Name* <input type="text" name="name" required> </label>
+                <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                <label> Question/Concern* <textarea name="description" required></textarea> </label>
+                <input type="submit" value="Send us a Message" class="submitBtn">
+            </form>
+        </div>
+        
+    </header>
+    <main class="reservation">
+        <div class="reservationForm">
+            <form method="get" action="thankyou.html">
+                <fieldset>
+                    <legend>General information</legend>
+                   <label class="top"> First Name* <input type="text" name="fname" required> </label>
+                   <label class="top"> Last Name* <input type="text" name="lname" required> </label>
+                   <label class="top"> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                   <label class="top"> Phone* <input type="tel" name="phone" placeholder="1234567890" required> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>reservation information</legend>
+                    <label class="top"> Check in <input type="date" name="checkin" required /></label>
+                    <label class="top"> Check out <input type="date" name="checkout" required /></label>
+                    <label class="top"> Business Position <input type="text" name="business-position" id="businessPosition" pattern="[a-zA-Z0-9- ]{7,}"> </label>
+                    <label class="top"> Business Name/Title* <input type="text" name="business-name" required> </label>
+                    <label class="top"> Business Description <textarea name="description"></textarea> </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Acommodations</legend>
+                    <label>Type of Room</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Single"> Single</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Twin"> Twin</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Queen"> Queen</label>
+                    <label class="sbs"><input type="radio" name="membership" value="King"> King</label>
+                    <label class="sbs"><input type="radio" name="membership" value="Suite"> Suite</label>
+                </fieldset>
+                <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>
+        </div>
+        <div class="right-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="temple.html">Temple</a></li>
+                    <li><a href="reservation.html">Reservation</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </nav>
+            <h3>Contact Us</h3>
+            <form method="get">
+                <label> Name* <input type="text" name="name" required> </label>
+                <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                <label> Question/Concern* <textarea name="description" required></textarea> </label>
+                <input type="submit" value="Send us a Message" class="submitBtn">
+            </form>
+        </div>
+        <div class="second-footer">
+            <h4>The Temple Inn & Suites</h4>
+            <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
+            <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+            <p>contact@hotelinn.org</p>
+            <p>+1 809-987-643</p>
+            <div class="social">
+                <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
+                <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
+            </div>
+            <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+            <p>&copy; <span id="currentyear-2"></span> The Temple Inn & Suites </p>
+        </div>
+    </main>
+    <footer>
+        <h4>The Temple Inn & Suites</h4>
+        <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
+        <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        <p>contact@hotelinn.org</p>
+        <p>+1 809-987-643</p>
+        <div class="social">
+            <a href="https://www.instagram.com/"><img src="images/instagram.png" alt="instagram logo"></a>
+            <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
+        </div>
+        <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+        <p>&copy; <span id="currentyear"></span> The Temple Inn & Suites </p>
+    </footer>
+</body>
+</html>
