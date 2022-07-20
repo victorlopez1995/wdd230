@@ -48,33 +48,41 @@
     </header>
     <main class="reservation">
         <div class="reservationForm">
+            <h2>Reservation Form</h2>
             <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>General information</legend>
-                   <label class="top"> First Name* <input type="text" name="fname" required> </label>
-                   <label class="top"> Last Name* <input type="text" name="lname" required> </label>
-                   <label class="top"> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
-                   <label class="top"> Phone* <input type="tel" name="phone" placeholder="1234567890" required> </label>
+                   <label class="top"> First Name <input type="text" name="fname" required> </label>
+                   <label class="top"> Last Name <input type="text" name="lname" required> </label>
+                   <label class="top"> Email <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
+                   <label class="top"> Phone <input type="number" name="phone" placeholder="1234567890" required> </label>
                 </fieldset>
                 <fieldset>
                     <legend>reservation information</legend>
+                    <label class="top">Temple Location<select name="temple">
+                          <option value="">Please Select</option>
+                          <option value="columbia">Bogotá, Colombia</option>
+                          <option value="orlando">Barranquilla, Colombia</option>
+                          <option value="palmyra">São Paulo, Brazil</option>
+                          <option value="philadelphia">Rio de Janeiro, Brazil</option>
+                        </select>
+                      </label>
                     <label class="top"> Check in <input type="date" name="checkin" required /></label>
                     <label class="top"> Check out <input type="date" name="checkout" required /></label>
-                    <label class="top"> Business Position <input type="text" name="business-position" id="businessPosition" pattern="[a-zA-Z0-9- ]{7,}"> </label>
-                    <label class="top"> Business Name/Title* <input type="text" name="business-name" required> </label>
-                    <label class="top"> Business Description <textarea name="description"></textarea> </label>
+                    <label class="top"> number of rooms <input type="number" name="rooms" required> </label>
                 </fieldset>
                 <fieldset>
                     <legend>Acommodations</legend>
-                    <label>Type of Room</label>
+                    <label class="top">Type of Room</label>
                     <label class="sbs"><input type="radio" name="membership" value="Single"> Single</label>
                     <label class="sbs"><input type="radio" name="membership" value="Twin"> Twin</label>
                     <label class="sbs"><input type="radio" name="membership" value="Queen"> Queen</label>
                     <label class="sbs"><input type="radio" name="membership" value="King"> King</label>
                     <label class="sbs"><input type="radio" name="membership" value="Suite"> Suite</label>
+                    <label class="top"> Accommodations/Comments <textarea name="description"></textarea> </label>
+                    
                 </fieldset>
-                <input type="hidden" id="date-time" name="date-time" value="CurrentTime">
-                <input type="submit" value="Join the Chamber" class="submitBtn">
+                <input type="submit" value="Book My Room" class="submitBtn">
             </form>
         </div>
         <div class="right-menu">

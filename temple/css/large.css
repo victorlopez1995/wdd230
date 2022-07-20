@@ -166,4 +166,7 @@
     main.temple-list div.cards {
         grid-row: 1/3;
     }
+    main.reservation div.reservationForm {
+        grid-row: 1/3;
+    }
 }
