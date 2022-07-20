@@ -46,4 +46,29 @@
     main.services div.special-services{
         clear: both;
     }
+    main.reception div.reception-information img{
+        float: left;
+        margin: 0 1.5rem 1rem 1rem;
+    }
+    main.reception div.food-information{
+        clear: both;
+    }
+    main.reception div.food-information img{
+        float: right; 
+        margin: 0 1rem 1rem 1.5rem;
+    }
+    main.missionaries div.missionaries-information img.kitchenRoom{
+        float: left;
+        margin: 0 1.5rem 1rem 1rem;
+    }
+    main.missionaries div.restaurant-information{
+        clear: both;
+    }
+    main.missionaries div.restaurant-information img{
+        float: right; 
+        margin: 0 1rem 1rem 1.5rem;
+    }
+    main.missionaries div.restaurant-information div:nth-of-type(2){
+        clear: both;
+    }
 }

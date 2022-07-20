@@ -381,3 +381,42 @@ main.services div.special-services img{
     width: 80%;
     max-width: 300px;
 }
+
+/*--------------------------------------------------Reception-----------------------------------------------*/
+
+main.reception div.reception-information, main.reception div.food-information {
+    margin: 0 auto;
+    text-align: center;
+
+}
+main.reception div.reception-information img, main.reception div.food-information img{
+    width: 80%;
+    max-width: 250px;
+}
+main.reception div.reception-information ul, main.reception div.food-information ul{
+    list-style-position: inside;
+}
+main.reception div.food-information{
+    background-color: var(--strongGreen);
+    color: white;
+}
+
+/*---------------------------------------------------missionaries------------------------------------------------------*/
+
+main.missionaries div.missionaries-information, main.missionaries div.restaurant-information {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 1rem;
+
+}
+main.missionaries div.missionaries-information img, main.missionaries div.restaurant-information img{
+    width: 80%;
+    max-width: 250px;
+}
+main.missionaries div.missionaries-information ul, main.missionaries div.restaurant-information ul{
+    list-style-position: inside;
+}
+main.missionaries div.restaurant-information{
+    background-color: var(--strongGreen);
+    color: white;
+}
