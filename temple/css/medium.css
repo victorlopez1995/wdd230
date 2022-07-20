@@ -32,4 +32,18 @@
     main.temple-list div.cards div:nth-child(3){
         grid-row: 1/2;
     }
+    main.services div.service-information img{
+        float: left;
+        margin: 0 1.5rem 1rem 1rem;
+    }
+    main.services div.amenities-information h2{
+        clear: both;
+    }
+    main.services div.amenities-information img{
+        float: right; 
+        margin: 0 1rem 1rem 1.5rem;
+    }
+    main.services div.special-services{
+        clear: both;
+    }
 }

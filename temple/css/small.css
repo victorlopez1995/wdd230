@@ -31,7 +31,7 @@ h2{
 h4{
     padding: 1rem;
 }
-p{
+p, ul{
     font-size: 0.8rem;
     line-height: 2;
     padding: 1.2rem;
@@ -340,4 +340,44 @@ main.reservation form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 96%;
     max-width: 20rem;
+}
+
+/*--------------------------------------------Services------------------------------------------------------------------------*/
+
+main.services div.service-information, main.services div.amenities-information {
+    margin: 1rem auto;
+    text-align: center;
+
+}
+main.services div.service-information img, main.services div.amenities-information img{
+    width: 80%;
+    max-width: 250px;
+}
+main.services div.service-information ul, main.services div.amenities-information ul{
+    list-style-position: inside;
+}
+main.services div.special-services{
+    padding: 1.5rem;
+    text-align: center;
+    background-color: var(--strongGreen);
+    color: white;
+}
+main.services div.special-services a{
+    display: block;
+    margin: 0.8rem;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+main.services div.special-services a:hover{
+    background-color: var(--softGreen);
+    color: black
+}
+main.services div.special-services a h3{
+    margin: 0.8rem;
+}
+main.services div.special-services img{
+    width: 80%;
+    max-width: 300px;
 }

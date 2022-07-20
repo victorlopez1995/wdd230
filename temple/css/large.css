@@ -169,4 +169,39 @@
     main.reservation div.reservationForm {
         grid-row: 1/3;
     }
+    main.services div.amenities-information{
+        grid-column: 1/2;
+    }
+    main.services div.right-menu {
+        grid-row: 1/3;
+    }
+    main.services div.service-information{
+        display: grid;
+        grid-template-columns: 20vw 1fr 1fr;
+    }
+    main.services div.service-information img{
+        max-width: 250px;
+        align-self: center;
+    }
+    main.services div.service-information div{
+        align-self: center;
+    }
+    main.services div.amenities-information{
+        display: grid;
+        grid-template-columns: 20vw 1fr 1fr;
+    }
+    main.services div.amenities-information img{
+        max-width: 250px;
+        align-self: center;
+    }
+    main.services div.amenities-information div{
+        align-self: center;
+    }
+    main.services div.special-services{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    main.services div.special-services h2{
+        grid-column: 1/3;
+    }
 }
