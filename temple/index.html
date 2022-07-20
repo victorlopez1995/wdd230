@@ -17,6 +17,7 @@
     <script src="js/date.js" defer></script>
 </head>
 <body>
+    <div id="banner"><span id="alert"></span><button id="close">❌</button></div>
     <header>
         <div class="title">
             <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
@@ -37,7 +38,7 @@
                     <li><a href="services.html">Services</a></li>
                 </ul>
             </nav>
-            <form method="get" id="headerForm">
+            <form method="get" action="thankyou.html" id="headerForm">
                 <label> Name* <input type="text" name="name" required> </label>
                 <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
                 <label> Question/Concern* <textarea name="description" required></textarea> </label>
@@ -54,13 +55,14 @@
             </h2>
             <img src="images/saltlake.jpg" alt="Salt Lake Temple at night">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Harum laborum molestias sapiente asperiores minima itaque 
-                repellendus fugit amet, ullam earum odit facilis reiciendis 
-                tempore distinctio, necessitatibus autem aperiam iste, facere 
-                non commodi. Veritatis porro, ab eos magni, sint illo sit 
-                cum ratione expedita laboriosam reprehenderit odio maxime 
-                molestias deleniti cumque!
+                Crossing the plains to Utah, the Latter-day Saint pioneers resumed 
+                their temple building with great fervor. They desired salvation 
+                in the kingdom of God. They understood that temple ordinances were 
+                essential to that salvation, and so they spared no effort in building 
+                temples in which to receive them. In the West, they were able to find 
+                a place of refuge where the Church could begin to flourish. In the 
+                coming years, four temples were constructed throughout Utah, including 
+                the iconic Salt Lake Temple. (Why Latter-day Saints Build Temples, <a href="https://www.churchofjesuschrist.org/temples/why-latter-day-saints-build-temples?lang=eng">www.churchofjesuschrist.org</a>)
             </p>
         </div>
         <div class="right-menu">
@@ -73,7 +75,7 @@
                 </ul>
             </nav>
             <h3>Contact Us</h3>
-            <form method="get">
+            <form method="get" action="thankyou.html">
                 <label> Name* <input type="text" name="name" required> </label>
                 <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
                 <label> Question/Concern* <textarea name="description" required></textarea> </label>
@@ -96,6 +98,7 @@
             </div>
         </div>
         <div class="second-footer">
+            <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
             <h4>The Temple Inn & Suites</h4>
             <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
             <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
@@ -106,10 +109,12 @@
                 <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
             </div>
             <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+            <a href="resources.html">Resources</a>
             <p>&copy; <span id="currentyear-2"></span> The Temple Inn & Suites </p>
         </div>
     </main>
     <footer>
+        <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
         <h4>The Temple Inn & Suites</h4>
         <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
         <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
@@ -120,6 +125,7 @@
             <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
         </div>
         <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+        <a href="resources.html">Resources</a>
         <p>&copy; <span id="currentyear"></span> The Temple Inn & Suites </p>
     </footer>
 </body>

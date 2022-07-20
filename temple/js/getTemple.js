@@ -25,26 +25,33 @@ fetch(requestURL)
     let services = document.createElement('p');
     let history = document.createElement('p');
     let closure = document.createElement('p');
+    let schedule = document.createElement('p');
     let ulServices = document.createElement('ul');
     let ulHistory = document.createElement('ul');
     let ulClosure = document.createElement('ul');
+    let ulSchedule = document.createElement('ul');
     let star = document.createElement('img');
     let starLike = document.createElement('img');
     let starButton = document.createElement('button');
 
     temple.services.forEach( element => {
         let li = document.createElement('li');
-        li.textContent = `${element}}`;
+        li.textContent = `${element}`;
         ulServices.appendChild(li); 
     } )
+    temple.ordinanceSchedule.forEach( element => {
+      let li = document.createElement('li');
+      li.textContent = `${element}`;
+      ulSchedule.appendChild(li); 
+  } )
     temple.history.forEach( element => {
         let li = document.createElement('li');
-        li.textContent = `${element}}`;
+        li.textContent = `${element}`;
         ulHistory.appendChild(li); 
     } )
     temple.templeClosureSchedule.forEach( element => {
         let li = document.createElement('li');
-        li.textContent = `${element}}`;
+        li.textContent = `${element}`;
         ulClosure.appendChild(li); 
     } )
 
@@ -75,6 +82,7 @@ fetch(requestURL)
     services.textContent = `Services`;
     history.textContent = `History`;
     closure.textContent = `Temple Closure Schedule`;
+    schedule.textContent = `Ordinance Schedule`;
     
     // Add/append the section(card) with the h2 element
     card.appendChild(starButton);
@@ -85,6 +93,8 @@ fetch(requestURL)
     card.appendChild(phone);
     card.appendChild(services);
     card.appendChild(ulServices);
+    card.appendChild(schedule);
+    card.appendChild(ulSchedule);
     card.appendChild(history);
     card.appendChild(ulHistory);
     card.appendChild(closure);

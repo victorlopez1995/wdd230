@@ -109,7 +109,7 @@
         grid-template-columns: 20vw 1fr 1fr;
     }
     main.index div.temple-information img{
-        max-width: 250px;
+        max-width: 400px;
         align-self: center;
     }
     main.index div.temple-information p{
@@ -137,6 +137,9 @@
         text-align: center;
         padding: 0.5rem;
         background-color: rgba(48, 107, 52, 0.5);
+    }
+    main div.second-footer img{
+        width: 100px;
     }
     main.index div.weather{
         grid-template-columns: 20vw 1fr 1fr;

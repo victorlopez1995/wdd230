@@ -37,7 +37,7 @@
                     <li><a href="services.html">Services</a></li>
                 </ul>
             </nav>
-            <form method="get" id="headerForm">
+            <form method="get" action="thankyou.html" id="headerForm">
                 <label> Name* <input type="text" name="name" required> </label>
                 <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
                 <label> Question/Concern* <textarea name="description" required></textarea> </label>
@@ -55,7 +55,8 @@
                    <label class="top"> First Name <input type="text" name="fname" required> </label>
                    <label class="top"> Last Name <input type="text" name="lname" required> </label>
                    <label class="top"> Email <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
-                   <label class="top"> Phone <input type="number" name="phone" placeholder="1234567890" required> </label>
+                   <label class="top"> Phone (Format: 01-12345678) <input type="tel" name="phone" placeholder="01-12345678" pattern="[0-9]{1,3}-[0-9]{6,12}" required> </label>
+                   <label class="top"> Home Country <input type="text" name="country" required> </label>
                 </fieldset>
                 <fieldset>
                     <legend>reservation information</legend>
@@ -95,7 +96,7 @@
                 </ul>
             </nav>
             <h3>Contact Us</h3>
-            <form method="get">
+            <form method="get" action="thankyou.html">
                 <label> Name* <input type="text" name="name" required> </label>
                 <label> Email* <input type="email" name="email" placeholder="Someone@gmail.com" required> </label>
                 <label> Question/Concern* <textarea name="description" required></textarea> </label>
@@ -103,6 +104,7 @@
             </form>
         </div>
         <div class="second-footer">
+            <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
             <h4>The Temple Inn & Suites</h4>
             <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
             <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
@@ -113,10 +115,12 @@
                 <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
             </div>
             <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+            <a href="resources.html">Resources</a>
             <p>&copy; <span id="currentyear-2"></span> The Temple Inn & Suites </p>
         </div>
     </main>
     <footer>
+        <img src="images/logoHotel.png" alt="logo the temple Inn & suites">
         <h4>The Temple Inn & Suites</h4>
         <p>&#128205;<a href="https://goo.gl/maps/BPXPYz6HgKQNhrPB6">Location map</a></p>
         <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
@@ -127,6 +131,7 @@
             <a href="https://www.youtube.com/"><img src="images/youtube.png" alt="youtube logo"></a>  
         </div>
         <p>Weather information provided by <a href="https://openweathermap.org/">https://openweathermap.org/</a></p>
+        <a href="resources.html">Resources</a>
         <p>&copy; <span id="currentyear"></span> The Temple Inn & Suites </p>
     </footer>
 </body>

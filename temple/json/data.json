@@ -17,7 +17,12 @@
 				"26 June 1993: Groundbreaking",
 				"24 April 1999: Dedicated"
 			],
-			"ordinanceSchedule": null,
+			"ordinanceSchedule": [
+				"Endowment sessions start every hour on the hour between 7AM and 7PM Tuesday through Saturday",
+				"Baptism sessions start every our hour on the hour between 9AM and 6PM Tuesday through Saturday",
+				"Initiatory sessions start every our hour on the hour between 10AM and 5PM Tuesday through Saturday",
+				"Sealing sessions: Twice per day (appointments)"
+			],
 			"sessionSchedule": null,
 			"templeClosureSchedule":[
 				"Wednesday, 20 July 2022",
@@ -46,7 +51,12 @@
 				"20 February 2016: Groundbreaking",
 				"9 December 2018: Dedicated"
 			],
-			"ordinanceSchedule": null,
+			"ordinanceSchedule": [
+				"Endowment sessions start every hour on the hour between 10AM and 7PM Tuesday through Saturday",
+				"Baptism sessions start every two hours on the hour between 9AM and 6PM Tuesday through Saturday",
+				"Initiatory sessions start every our hour on the hour between 2AM and 5PM Tuesday through Saturday",
+				"Sealing sessions: start every two hours on the hour between 2PM and 8PM Tuesday through Saturday"
+			],
 			"sessionSchedule": null,
 			"templeClosureSchedule":[
 				"Saturday, 1 October 2022",
@@ -75,7 +85,12 @@
 				"30 October 1978: Dedicated",
 				"22 February 2004: Rededicated"
 			],
-			"ordinanceSchedule": null,
+			"ordinanceSchedule": [
+				"Endowment sessions start every hour on the hour between 8AM and 7PM Tuesday through Saturday",
+				"Baptism sessions start every our hour on the hour between 9AM and 6PM Tuesday through Saturday",
+				"Initiatory sessions start every our hour on the hour between 2PM and 5PM Tuesday through Saturday",
+				"Sealing sessions: Twice per day in the afternoom (appointments)"
+			],
 			"sessionSchedule": null,
 			"templeClosureSchedule": [
 				"Monday, 1 August 2022 - Monday, 15 August 2022",
@@ -103,7 +118,12 @@
 				"4 March 2017: Groundbreaking",
 				"8 May 2022: Dedicated"
 			],
-			"ordinanceSchedule": null,
+			"ordinanceSchedule": [
+				"Endowment sessions start every hour on the hour between 7AM and 5PM Tuesday through Saturday",
+				"Baptism sessions start every our hour on the hour between 9AM and 5PM Tuesday through Saturday",
+				"Initiatory sessions start every our hour on the hour between 9AM and 5PM Tuesday through Saturday",
+				"Sealing sessions: Twice per day in the afternoom (appointments)"
+			],
 			"sessionSchedule": null,
 			"templeClosureSchedule":[
 				"Saturday, 1 October 2022 - Sunday, 2 October 2022",

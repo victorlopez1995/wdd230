@@ -152,6 +152,15 @@ header form {display: none;}
 header form.open {display: block;}
 
 /*----------------------------------------------Main Index-------------------------------------------------------------------*/
+#banner {
+	display: none;
+	margin: 0 auto;
+	border: 1px solid #bbb;
+	background-color: #FFE770;
+	padding: 1rem;
+	text-align: center;
+	max-width: 1050px;
+}
 main.index div.temple-information {
     margin: 1rem auto;
     text-align: center;
@@ -166,11 +175,11 @@ main.index a.book {
     position: fixed;
     top: 200px;
     right: 10px;
-    background: var(--softGreen);
+    background: var(--titlesGreen);
     padding: 0.8rem;
     border-radius: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
     width: 70px;
   }
   main div.right-menu {
@@ -214,6 +223,9 @@ footer {
 footer p, footer div.social {
     text-align: center;
     padding: 0.1rem;
+}
+footer img {
+    width: 100px;
 }
 footer div.social img{
     width: 25px;
@@ -419,4 +431,24 @@ main.missionaries div.missionaries-information ul, main.missionaries div.restaur
 main.missionaries div.restaurant-information{
     background-color: var(--strongGreen);
     color: white;
+}
+
+/*------------------------------------------------------thank you-------------------------------------------------------*/
+main.thanks div.thankyou {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+    grid-row: 1/3;
+}
+main.thanks div.thankyou p {
+    text-align: center;
+}
+main.thanks div.thankyou img {
+    width: 100%;
+    max-width: 700px;
+    margin: 1rem;
+}
+main.thanks div.thankyou ul {
+ padding: 0.8rem;
 }
